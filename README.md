@@ -4,6 +4,12 @@ onboarding lila ( https://github.com/ornicar/lila , https://github.com/ornicar/l
 
 sign up to https://www.goorm.io/
 
+update Ubuntu
+
+```
+sudo apt update && sudo apt upgrade -y
+```
+
 create a Scala container
 
 install yarn ( https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/ ):
