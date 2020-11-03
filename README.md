@@ -25,6 +25,7 @@ update Node.js version
 npm cache clean -f
 npm install -g n
 n latest
+node -v
 ```
 
 install yarn ( https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/ ):
