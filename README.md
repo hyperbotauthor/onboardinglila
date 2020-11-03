@@ -77,5 +77,5 @@ compile
 install MongoDb ( https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ )
 
 ```
-https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
 ```
