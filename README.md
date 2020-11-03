@@ -17,7 +17,7 @@ lsb_release -a
 
 won't work
 
-instead create a Node.js container with MongoDb, which comes with the right Ubuntu version
+instead create a Node.js container, which comes with the right Ubuntu version
 
 update Node.js version
 
@@ -73,6 +73,12 @@ build Scala
 export SBT_OPTS="-Xmx4G"
 ./lila
 compile
+```
+
+install MongoDb ( https://help.goorm.io/en/goormide/18.faq/language-and-environment/how-to-install-mongodb )
+
+```
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4 && (echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.0.list) && apt-get update && apt-get install -y mongodb-org && mkdir -p /data/db
 ```
 
 install Redis ( https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04 )
