@@ -4,7 +4,7 @@ onboarding lila ( https://github.com/ornicar/lila , https://github.com/ornicar/l
 
 sign up to https://www.goorm.io/
 
-update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ )
+starting from Scala container and trying to update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ ) lie
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -15,7 +15,9 @@ sudo do-release-upgrade
 lsb_release -a
 ```
 
-create a Scala container
+won't work
+
+instead create a Node.js container, which comes with the right Ubuntu version
 
 install yarn ( https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/ ):
 
