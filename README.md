@@ -7,6 +7,7 @@ sign up to https://www.goorm.io/
 update Ubuntu
 
 ```
+cat /etc/*-release
 sudo apt update && sudo apt upgrade -y
 ```
 
