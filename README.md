@@ -4,7 +4,7 @@ https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding
 
 sign up to https://www.goorm.io/
 
-starting from Scala container and trying to update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ ) like
+starting from a Scala container and trying to update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ ) like
 
 ```
 sudo apt update && sudo apt upgrade -y
