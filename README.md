@@ -79,6 +79,8 @@ install MongoDb ( https://help.goorm.io/en/goormide/18.faq/language-and-environm
 
 ```
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4 && (echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.0.list) && apt-get update && apt-get install -y mongodb-org && mkdir -p /data/db
+mongod
+# mongo in other terminal
 ```
 
 install Redis ( https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04 )
@@ -86,4 +88,5 @@ install Redis ( https://www.digitalocean.com/community/tutorials/how-to-install-
 ```
 sudo apt update
 sudo apt install redis-server
+redis-server
 ```
