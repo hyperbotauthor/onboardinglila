@@ -73,3 +73,9 @@ build Scala
 ./lila
 compile
 ```
+
+install MongoDb ( https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ )
+
+```
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+```
