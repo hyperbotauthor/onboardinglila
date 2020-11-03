@@ -51,7 +51,7 @@ cd lila
 ./ui/build # builds the CSS and JS
 ```
 
-install sbt ( https://www.techrepublic.com/article/how-to-install-sbt-on-ubuntu-for-scala-and-java-projects/ )
+install sbt ( https://www.techrepublic.com/article/how-to-install-sbt-on-ubuntu-for-scala-and-java-projects/ , https://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html )
 
 ```
 sudo apt-get update
