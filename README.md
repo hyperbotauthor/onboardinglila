@@ -19,6 +19,14 @@ won't work
 
 instead create a Node.js container, which comes with the right Ubuntu version
 
+update Node.js version
+
+```
+npm cache clean -f
+npm install -g n
+n latest
+```
+
 install yarn ( https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/ ):
 
 ```
