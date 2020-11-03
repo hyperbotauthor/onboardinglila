@@ -66,3 +66,10 @@ sudo apt-get update
 sudo apt-get install sbt
 sbt test
 ```
+
+build Scala
+
+```
+./lila
+compile
+```
