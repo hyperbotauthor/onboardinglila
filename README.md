@@ -56,4 +56,5 @@ install sbt ( https://www.techrepublic.com/article/how-to-install-sbt-on-ubuntu-
 ```
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt-get install default-jdk -y
 ```
