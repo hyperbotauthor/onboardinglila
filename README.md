@@ -50,3 +50,24 @@ build the ui
 cd lila
 ./ui/build # builds the CSS and JS
 ```
+
+install sbt ( http://www.codebind.com/linux-tutorials/install-scala-sbt-java-ubuntu-18-04-lts-linux/ )
+
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update
+sudo apt install oracle-java8-installer
+sudo apt install oracle-java8-set-default
+javac -version
+echo "export PATH=/usr/local/anaconda2/bin:$PATH" >> /etc/bash.bashrc
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-oracle/" >> /etc/bash.bashrc
+echo "export PATH=$PATH:$JAVA_HOME/bin" >> /etc/bash.bashrc
+sudo apt-get remove scala-library scala
+sudo wget www.scala-lang.org/files/archive/scala-2.11.8.deb
+sudo dpkg -i scala-2.11.8.deb
+scala -version
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+sudo apt-get update
+sudo apt-get install sbt
+```
