@@ -1,6 +1,6 @@
 # onboardinglila
 
-onboarding lila ( https://github.com/ornicar/lila , https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding )
+https://github.com/ornicar/lila/wiki/Lichess-Development-Onboarding
 
 sign up to https://www.goorm.io/
 
@@ -37,10 +37,15 @@ sudo apt install yarn
 yarn --version
 ```
 
-clone lila and build the ui
+clone the repo ( https://github.com/ornicar/lila )
 
 ```
 git clone --recursive https://github.com/ornicar/lila.git
+```
+
+build the ui
+
+```
 cd lila
 ./ui/build # builds the CSS and JS
 ```
