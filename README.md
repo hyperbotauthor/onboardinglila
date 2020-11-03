@@ -82,3 +82,13 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongod
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
+
+install Redis ( https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04 )
+
+```
+sudo apt update
+sudo apt install redis-server
+sudo nano /etc/redis/redis.conf
+#supervised systemd
+sudo systemctl restart redis.service
+```
