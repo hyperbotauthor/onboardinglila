@@ -4,7 +4,7 @@ onboarding lila ( https://github.com/ornicar/lila , https://github.com/ornicar/l
 
 sign up to https://www.goorm.io/
 
-starting from Scala container and trying to update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ ) lie
+starting from Scala container and trying to update Ubuntu ( https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/ ) like
 
 ```
 sudo apt update && sudo apt upgrade -y
