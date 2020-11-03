@@ -4,11 +4,11 @@ onboarding lila ( https://github.com/ornicar/lila , https://github.com/ornicar/l
 
 sign up to https://www.goorm.io/
 
-update Ubuntu
+update Ubuntu ( https://itsfoss.com/update-ubuntu/ )
 
 ```
-cat /etc/*-release
 sudo apt update && sudo apt upgrade -y
+cat /etc/*-release
 ```
 
 create a Scala container
